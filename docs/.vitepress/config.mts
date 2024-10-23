@@ -2,14 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
-  base: "JiuYang-cell.github.io",
+  title: "JiuYang Blog",
+  description: "JiuYang Blog",
+  base: "/JiuYang-cell.github.io/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Mass Spectrum', link: '/markdown-examples' },
+      { text: 'Programme', link: '/markdown-examples' }
     ],
 
     sidebar: [
